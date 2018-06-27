@@ -11,7 +11,7 @@ import com.microsoft.azure.storage.table.CloudTableClient;
 public class DBUtil {
 
 	//TODO Add Your Storage Account Connection String
-	public static final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=empstg;AccountKey=A4gr4eaot2R9JztO9tjP2boBy0/MR56RKNHg4n1t4f8ex5GUglkwohkwcsWLTAIZbGVVrhaT08IkLcdPG70niw==;EndpointSuffix=core.windows.net";
+	public static final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=val1storage;AccountKey=g6aGNKMIo73vJey/2+S/0+GpPyWAMDML7eKVVhGLkdAC/bEZWnpqtjzW7xRDZS1IoqMPsruP27Gp/fXwgF7GUQ==;EndpointSuffix=core.windows.net";
 	protected static CloudTableClient tableClient = null;
 	protected static CloudBlobClient blobClient = null;
 
